@@ -1,0 +1,14 @@
+{
+  "name": "robo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "robo.js",
+  "scripts": {
+    "test": "nodemon robo.js",
+    "start": "node robo.js "
+  },
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.7.4",
+    "puppeteer": "^5.5.0"
+  }
+}
