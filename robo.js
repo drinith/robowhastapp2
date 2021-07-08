@@ -7,6 +7,10 @@ puppeteer.launch({ args: ['--no-sandbox', '--disable--gpu', '--disable-setuid-sa
 (async () => {
 
     try {
+        wppconnect.create({
+            session: 'session',
+            puppeteerOptions: { args: ['--no-sandbox'] }
+        })
         const cliente = await wppconnect.create((cliente) => {
             return cliente
 
